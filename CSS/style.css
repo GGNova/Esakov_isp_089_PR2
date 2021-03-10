@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    max-width: 1980px;
+
+}
+
+.header{
+    max-width: 1780px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-bg{
+    background-image: url(../IMG/header-bg.png);
+    height: 800px;
+}
+
+.header-nav-menu{
+    height: 80px;
+    display: flex;
+    max-width: 1780px;
+    margin: auto;
+    position: absolute;
+    left:44%;
+}
+
+@font-face {
+    font-family: 'Open Sans semi-bold';
+    font-style: semi-bold;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+.header-nav-text{
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans semi-bold', sans-serif;
+}
+
+.header-nav-text:nth-child(2){
+    margin-left: 10px;
+}
+
+.header-nav-text:nth-child(3){
+    margin-left: 10px;
+}
+
+.header-nav-text:nth-child(4){
+    margin-left: 10px;
+}
+
+.header-nav-text:nth-child(5){
+    margin-left: 10px;
+}
+
+.header-nav-bgmenu{
+    height: 80px;
+    background-color: rgba(0,91,193,0.6);
+}
+
+.logo{
+    background-image: url(../ICONS/logo.svg);
+    background-repeat: no-repeat;
+    background-position-y: 11px ;
+    width: 140px;
+    height: 65px;
+    margin-left: 25px;
+}
+
+.header-vetical-sqare{
+    background-color: rgba(0,91,193,0.6);
+    width: 445px;
+    height: 720px;
+    position: absolute;
+    top:8.2%;
+    left: 21.5%;
+}
+
+.header-content{
+    position: absolute;
+    width: 635px;
+    height: 317px;
+    left: 32%;
+    top: 24.5%;
+}
+
+@font-face {
+    font-family: 'Oswald normal';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+.header-headline{
+    color: white;
+    font-family: 'Oswald normal', sans-serif;
+    font-size: 38px;
+    letter-spacing: 1%;
+    line-height: 71px;
+}
+
+@font-face {
+    font-family: 'Open Sans regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+.header-content-text{
+    margin-top: 40px;
+    color: white;
+    font-family: 'Open Sans regular', sans-serif;
+    width: 445px;
+    line-height: 21px;
+}
+
+.header-content-btn{
+    margin-top: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    width: 160px;
+    font-family: 'Open Sans semi-bold', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 21px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.header-content-btn:hover{
+    border-radius: 10px;
+    transform: scale(1.05);
+}
