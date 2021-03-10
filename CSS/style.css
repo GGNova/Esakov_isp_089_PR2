@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@font-face {
+    font-family: 'Open Sans light';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  @font-face {
+    font-family: 'Open Sans semi-bold';
+    font-style: semi-bold;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+@font-face {
+    font-family: 'Oswald normal';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  @font-face {
+    font-family: 'Open Sans regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
 body{
     margin: 0px;
     padding: 0px;
@@ -30,14 +68,6 @@ body{
     left:44%;
 }
 
-@font-face {
-    font-family: 'Open Sans semi-bold';
-    font-style: semi-bold;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
 
 .header-nav-text{
     color: white;
@@ -81,25 +111,16 @@ body{
     height: 720px;
     position: absolute;
     top:8.2%;
-    left: 21.5%;
+    left: 20%;
 }
 
 .header-content{
     position: absolute;
     width: 635px;
     height: 317px;
-    left: 32%;
+    left: 31%;
     top: 24.5%;
 }
-
-@font-face {
-    font-family: 'Oswald normal';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
 
 .header-headline{
     color: white;
@@ -109,14 +130,6 @@ body{
     line-height: 71px;
 }
 
-@font-face {
-    font-family: 'Open Sans regular';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
 
 .header-content-text{
     margin-top: 40px;
@@ -143,4 +156,100 @@ body{
 .header-content-btn:hover{
     border-radius: 10px;
     transform: scale(1.05);
+}
+
+.content{
+    padding-top: 140px;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.heading-decor{
+    background-image: url(../ICONS/decor-heading.svg);
+    width: 100px;
+    height: 15px;
+    margin-top: 25px;
+}
+
+.our-proects-title{
+    display: flex;
+}
+
+.title-text{
+    margin-left: 40px;
+    font-family: 'Oswald normal', sans-serif;
+}
+
+.slider-btns{
+    display: flex;
+    margin-left: 59%;
+}
+
+.slider-right{
+    background-image:url(../ICONS/slider-btn-right.svg);
+    width: 55px;
+    height: 55px;
+}
+
+.slider-left{
+    background-image: url(../ICONS/slider-btn-left.svg);
+    width: 55px;
+    height: 55px;
+}
+
+.our-proects-content{
+    display: flex;
+}
+
+.ourProects-content-block1{
+    background-image: url(../IMG/our-proects-pick1.png) ;
+    background-size: 540px;
+    width: 540px;
+    height: 400px;
+}
+
+.ourProects-content-block2{
+    background-image: url(../IMG/our-proects-pick1.png) ;
+    width: 540px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.ourProects-content-discriptionOfBlock1{
+    width: 250px ;
+    height: 110px ;
+    background-color: white;
+    position: relative;
+    left: 47%;
+    top: 63%;
+}
+
+.discription-text{
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.discription-add{
+    font-family: "Open Sans light", sans-serif;
+    font-size: 14px;
+    width: 200px;
+}
+
+.discription-headline{
+    font-family: 'Oswald normal', sans-serif;
+    font-weight:  500;
+    font-size: 18px;
+}
+
+.catalog-of-products .slider-btns{
+    margin-left: 53.35%;
+}
+
+.equipment-rent .slider-btns{
+    margin-left: 49.29%;
+}
+
+.news .slider-btns{
+    margin-left: 67%;
 }
